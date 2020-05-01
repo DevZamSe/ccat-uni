@@ -36,7 +36,7 @@ public class Login extends AppCompatActivity {
 
                 if(a.getText().toString().equals("nilo") && !editText2.getText().toString().isEmpty()){
 //                    Log.e("exito","exito");
-                    Intent i = new Intent(Login.this, Inicio.class);
+                    Intent i = new Intent(Login.this, Dawer.class);
                     startActivity(i);
                 } else {
                     Toast.makeText(Login.this, "error", Toast.LENGTH_SHORT).show();
@@ -44,6 +44,5 @@ public class Login extends AppCompatActivity {
 
             }
         });
-
     }
 }
